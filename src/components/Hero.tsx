@@ -21,11 +21,11 @@ const Hero = () => {
             </span>
           </div>
 
-          <h1 className="font-heading text-4xl md:text-6xl lg:text-7xl font-black leading-tight mb-6 text-background animate-fade-in-up">
-            Seu estofado <br />
-            <span className="text-primary">limpo</span> e{" "}
-            <span className="text-accent">sem ácaros</span>
-          </h1>
+          <h1 className="font-lora tracking-tight text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 text-background animate-fade-in-up">
+  Seu estofado <br />
+  <span className="text-primary">limpo</span> e{" "}
+  <span className="text-accent">sem ácaros</span>
+</h1>
 
           <p className="text-lg md:text-xl text-background/80 mb-8 max-w-lg font-body leading-relaxed animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
             Higienização especializada de sofás, colchões, cadeiras e poltronas. 

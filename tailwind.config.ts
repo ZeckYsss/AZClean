@@ -12,6 +12,15 @@ export default {
         "2xl": "1400px",
       },
     },
+
+    theme: {
+  extend: {
+    fontFamily: {
+      lora: ["Lora", "serif"],
+    },
+  },
+},
+
     extend: {
       fontFamily: {
         heading: ["Montserrat", "sans-serif"],

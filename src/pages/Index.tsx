@@ -4,6 +4,11 @@ import Services from "@/components/Services";
 import About from "@/components/About";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
+import BeforeAfter from "@/components/BeforeAfter";
+
+import BeforeAfterCarousel from "@/components/BeforeAfterCarousel";
+import BeforeAfterSimple from "@/components/BeforeAfterSimple";
+
 
 const Index = () => {
   return (
@@ -11,6 +16,12 @@ const Index = () => {
       <Header />
       <main>
         <Hero />
+        <BeforeAfter />
+      <br></br>  
+        <BeforeAfterCarousel />
+        <br></br><br></br><br></br><br></br><br></br>
+        <BeforeAfterSimple />
+        <br></br><br></br><br></br>
         <Services />
         <About />
         <CTA />
