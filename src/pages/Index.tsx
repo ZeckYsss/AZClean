@@ -15,11 +15,7 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <Header />
       <main>
-        <Hero />
-        <BeforeAfter />
-      <br></br>  
-        <BeforeAfterCarousel />
-        <br></br><br></br><br></br><br></br><br></br>
+        <Hero /><br></br><br></br><br></br>
         <BeforeAfterSimple />
         <br></br><br></br><br></br>
         <Services />
